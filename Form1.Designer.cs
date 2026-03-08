@@ -1,4 +1,4 @@
-﻿namespace bai1
+﻿namespace bai2
 {
     partial class Form1
     {
@@ -28,106 +28,159 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblA = new System.Windows.Forms.Label();
-            this.lblB = new System.Windows.Forms.Label();
-            this.txtA = new System.Windows.Forms.TextBox();
-            this.txtB = new System.Windows.Forms.TextBox();
-            this.btnTong = new System.Windows.Forms.Button();
-            this.btnLamlai = new System.Windows.Forms.Button();
-            this.btnThoat = new System.Windows.Forms.Button();
-            this.lblKQ = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.lbl2 = new System.Windows.Forms.Label();
+            this.lbl3 = new System.Windows.Forms.Label();
+            this.lbl4 = new System.Windows.Forms.Label();
+            this.txt1 = new System.Windows.Forms.TextBox();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
+            this.txt2 = new System.Windows.Forms.TextBox();
+            this.txt3 = new System.Windows.Forms.TextBox();
+            this.txt4 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // lblA
+            // lbl1
             // 
-            this.lblA.AutoSize = true;
-            this.lblA.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblA.Location = new System.Drawing.Point(166, 112);
-            this.lblA.Name = "lblA";
-            this.lblA.Size = new System.Drawing.Size(54, 16);
-            this.lblA.TabIndex = 0;
-            this.lblA.Text = "Nhập a:";
+            this.lbl1.AutoSize = true;
+            this.lbl1.Location = new System.Drawing.Point(140, 82);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(53, 16);
+            this.lbl1.TabIndex = 0;
+            this.lbl1.Text = "Nhập n:";
             // 
-            // lblB
+            // lbl2
             // 
-            this.lblB.AutoSize = true;
-            this.lblB.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblB.Location = new System.Drawing.Point(166, 200);
-            this.lblB.Name = "lblB";
-            this.lblB.Size = new System.Drawing.Size(54, 16);
-            this.lblB.TabIndex = 1;
-            this.lblB.Text = "Nhập b:";
+            this.lbl2.AutoSize = true;
+            this.lbl2.Location = new System.Drawing.Point(140, 123);
+            this.lbl2.Name = "lbl2";
+            this.lbl2.Size = new System.Drawing.Size(50, 16);
+            this.lbl2.TabIndex = 1;
+            this.lbl2.Text = "Dãy số";
             // 
-            // txtA
+            // lbl3
             // 
-            this.txtA.Location = new System.Drawing.Point(274, 112);
-            this.txtA.Name = "txtA";
-            this.txtA.Size = new System.Drawing.Size(375, 22);
-            this.txtA.TabIndex = 2;
+            this.lbl3.AutoSize = true;
+            this.lbl3.Location = new System.Drawing.Point(140, 170);
+            this.lbl3.Name = "lbl3";
+            this.lbl3.Size = new System.Drawing.Size(83, 16);
+            this.lbl3.TabIndex = 2;
+            this.lbl3.Text = "Tổng dãy số";
             // 
-            // txtB
+            // lbl4
             // 
-            this.txtB.Location = new System.Drawing.Point(274, 200);
-            this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(375, 22);
-            this.txtB.TabIndex = 3;
+            this.lbl4.AutoSize = true;
+            this.lbl4.Location = new System.Drawing.Point(140, 213);
+            this.lbl4.Name = "lbl4";
+            this.lbl4.Size = new System.Drawing.Size(57, 16);
+            this.lbl4.TabIndex = 3;
+            this.lbl4.Text = "Sắp xếp";
             // 
-            // btnTong
+            // txt1
             // 
-            this.btnTong.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnTong.Location = new System.Drawing.Point(131, 354);
-            this.btnTong.Name = "btnTong";
-            this.btnTong.Size = new System.Drawing.Size(75, 23);
-            this.btnTong.TabIndex = 4;
-            this.btnTong.Text = "Tổng";
-            this.btnTong.UseVisualStyleBackColor = false;
-            this.btnTong.Click += new System.EventHandler(this.btnTong_Click);
+            this.txt1.Location = new System.Drawing.Point(242, 82);
+            this.txt1.Name = "txt1";
+            this.txt1.Size = new System.Drawing.Size(302, 22);
+            this.txt1.TabIndex = 4;
             // 
-            // btnLamlai
+            // btn1
             // 
-            this.btnLamlai.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnLamlai.Location = new System.Drawing.Point(342, 354);
-            this.btnLamlai.Name = "btnLamlai";
-            this.btnLamlai.Size = new System.Drawing.Size(75, 23);
-            this.btnLamlai.TabIndex = 5;
-            this.btnLamlai.Text = "Làm lại";
-            this.btnLamlai.UseVisualStyleBackColor = false;
-            this.btnLamlai.Click += new System.EventHandler(this.btnLamlai_Click);
+            this.btn1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn1.Location = new System.Drawing.Point(74, 316);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(75, 23);
+            this.btn1.TabIndex = 5;
+            this.btn1.Text = "Nhập";
+            this.btn1.UseVisualStyleBackColor = false;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
-            // btnThoat
+            // btn2
             // 
-            this.btnThoat.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnThoat.Location = new System.Drawing.Point(574, 354);
-            this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(75, 23);
-            this.btnThoat.TabIndex = 6;
-            this.btnThoat.Text = "Thoát";
-            this.btnThoat.UseVisualStyleBackColor = false;
-            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            this.btn2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn2.Location = new System.Drawing.Point(204, 315);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(75, 23);
+            this.btn2.TabIndex = 6;
+            this.btn2.Text = "Tính tổng";
+            this.btn2.UseVisualStyleBackColor = false;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
-            // lblKQ
+            // btn3
             // 
-            this.lblKQ.AutoSize = true;
-            this.lblKQ.Location = new System.Drawing.Point(198, 284);
-            this.lblKQ.Name = "lblKQ";
-            this.lblKQ.Size = new System.Drawing.Size(160, 16);
-            this.lblKQ.TabIndex = 7;
-            this.lblKQ.Text = "Tổng các số từ a đến b là:";
+            this.btn3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn3.Location = new System.Drawing.Point(339, 315);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(75, 23);
+            this.btn3.TabIndex = 7;
+            this.btn3.Text = "Sắp xếp";
+            this.btn3.UseVisualStyleBackColor = false;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            // 
+            // btn4
+            // 
+            this.btn4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn4.Location = new System.Drawing.Point(469, 316);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(75, 23);
+            this.btn4.TabIndex = 8;
+            this.btn4.Text = "Làm lại";
+            this.btn4.UseVisualStyleBackColor = false;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            // 
+            // btn5
+            // 
+            this.btn5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn5.Location = new System.Drawing.Point(593, 316);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(75, 23);
+            this.btn5.TabIndex = 9;
+            this.btn5.Text = "Thoát";
+            this.btn5.UseVisualStyleBackColor = false;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            // 
+            // txt2
+            // 
+            this.txt2.Location = new System.Drawing.Point(242, 123);
+            this.txt2.Name = "txt2";
+            this.txt2.Size = new System.Drawing.Size(302, 22);
+            this.txt2.TabIndex = 10;
+            // 
+            // txt3
+            // 
+            this.txt3.Location = new System.Drawing.Point(242, 170);
+            this.txt3.Name = "txt3";
+            this.txt3.Size = new System.Drawing.Size(302, 22);
+            this.txt3.TabIndex = 11;
+            // 
+            // txt4
+            // 
+            this.txt4.Location = new System.Drawing.Point(242, 213);
+            this.txt4.Name = "txt4";
+            this.txt4.Size = new System.Drawing.Size(302, 22);
+            this.txt4.TabIndex = 12;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.ClientSize = new System.Drawing.Size(768, 487);
-            this.Controls.Add(this.lblKQ);
-            this.Controls.Add(this.btnThoat);
-            this.Controls.Add(this.btnLamlai);
-            this.Controls.Add(this.btnTong);
-            this.Controls.Add(this.txtB);
-            this.Controls.Add(this.txtA);
-            this.Controls.Add(this.lblB);
-            this.Controls.Add(this.lblA);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(833, 485);
+            this.Controls.Add(this.txt4);
+            this.Controls.Add(this.txt3);
+            this.Controls.Add(this.txt2);
+            this.Controls.Add(this.btn5);
+            this.Controls.Add(this.btn4);
+            this.Controls.Add(this.btn3);
+            this.Controls.Add(this.btn2);
+            this.Controls.Add(this.btn1);
+            this.Controls.Add(this.txt1);
+            this.Controls.Add(this.lbl4);
+            this.Controls.Add(this.lbl3);
+            this.Controls.Add(this.lbl2);
+            this.Controls.Add(this.lbl1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -137,14 +190,19 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblA;
-        private System.Windows.Forms.Label lblB;
-        private System.Windows.Forms.TextBox txtA;
-        private System.Windows.Forms.TextBox txtB;
-        private System.Windows.Forms.Button btnTong;
-        private System.Windows.Forms.Button btnLamlai;
-        private System.Windows.Forms.Button btnThoat;
-        private System.Windows.Forms.Label lblKQ;
+        private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Label lbl2;
+        private System.Windows.Forms.Label lbl3;
+        private System.Windows.Forms.Label lbl4;
+        private System.Windows.Forms.TextBox txt1;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Button btn4;
+        private System.Windows.Forms.Button btn5;
+        private System.Windows.Forms.TextBox txt2;
+        private System.Windows.Forms.TextBox txt3;
+        private System.Windows.Forms.TextBox txt4;
     }
 }
 
